@@ -258,7 +258,7 @@ const ALBUMS = [
       "Lim Sivphang/sixtynine.jpg",
       "Lim Sivphang/seventy.jpg",
       
-      { file: "Lim Sivphang/one.mov", caption: "Undressed" },
+      "Lim Sivphang/one.mov",
     ],
   },
 
@@ -285,8 +285,8 @@ const ALBUMS = [
       "Pheng Sivchhing/seventeen.jpg",
       "Pheng Sivchhing/eighteen.jpg",
       "Pheng Sivchhing/nineteen.jpg",
-      { file: "Pheng Sivchhing/one.mp4", caption: "Hot"},
-      { file: "Pheng Sivchhing/two.mp4", caption: "Three sister"},
+      "Pheng Sivchhing/one.mp4", 
+      "Pheng Sivchhing/two.mp4", 
     ],
   },
 
@@ -294,11 +294,11 @@ const ALBUMS = [
     title : "Random Video",
     cover : "Vey Vimean/five.mp4",
     items : [
-      { file: "Vey Vimean/one.mov", caption: ""},
-      { file: "Vey Vimean/two.mov", caption: ""},
-      { file: "Vey Vimean/three.mp4", caption: ""},
-      { file: "Vey Vimean/four.mp4", caption: ""},
-      { file: "Vey Vimean/five.mp4", caption: ""},
+      "Vey Vimean/one.mov", 
+      "Vey Vimean/two.mov", 
+      "Vey Vimean/three.mp4",
+      "Vey Vimean/four.mp4",
+      "Vey Vimean/five.mp4", 
     ],
   },
   // Add more albums below, e.g:
