@@ -285,8 +285,8 @@ const ALBUMS = [
       "Pheng Sivchhing/seventeen.jpg",
       "Pheng Sivchhing/eighteen.jpg",
       "Pheng Sivchhing/nineteen.jpg",
-      "Pheng Sivchhing/one.MP4", 
-      "Pheng Sivchhing/two.MP4", 
+      "Pheng Sivchhing/one.mp4", 
+      "Pheng Sivchhing/two.mp4", 
     ],
   },
 
