@@ -120,7 +120,6 @@ const ALBUMS = [
       "Has Kunthea/ninetyeight.jpg",
       "Has Kunthea/ninetynine.jpg",
       "Has Kunthea/onehundred.jpg",
-      { file: "media/example/example-clip.mp4", caption: "Example clip" },
     ],
   },
 
@@ -179,9 +178,9 @@ const ALBUMS = [
       "Heang Seangleng/fourtynine.jpg",
       "Heang Seangleng/fifty.jpg",
 
-      { file: "Heang Seangleng/one.mp4", caption: "naked" },
-      { file: "Heang Seangleng/two.mp4", caption: "Leg" },
-      { file: "Heang Seangleng/three.mp4", caption: "No underwear" },
+      "Heang Seangleng/one.mp4", 
+      "Heang Seangleng/two.mp4", 
+      "Heang Seangleng/three.mp4",
     ],
   },
   {
