@@ -292,13 +292,13 @@ const ALBUMS = [
 
   {
     title : "Random Video",
-    cover : "Vey Vimean/five.MP4",
+    cover : "Vey Vimean/five.mp4",
     items : [
-      "Vey Vimean/one.MOV", 
-      "Vey Vimean/two.MOV", 
-      "Vey Vimean/three.MP4",
-      "Vey Vimean/four.MP4",
-      "Vey Vimean/five.MP4", 
+      "Vey Vimean/one.mov", 
+      "Vey Vimean/two.mov", 
+      "Vey Vimean/three.mp4",
+      "Vey Vimean/four.mp4",
+      "Vey Vimean/five.mp4", 
     ],
   },
   // Add more albums below, e.g:
