@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Archive — Photo &amp; Video Albums</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Albums landing view ===== -->
+<section id="albumsView">
+  <header class="masthead">
+    <div class="masthead-inner">
+      <p class="eyebrow"><span id="albumCount">0</span> ROLLS ON THE SHELF</p>
+      <h1>THE<span class="thin">ARCHIVE</span></h1>
+      <p class="tagline">Pick a roll to develop.</p>
+    </div>
+  </header>
+
+  <div class="sprocket-strip" aria-hidden="true"></div>
+
+  <section id="albumGrid" class="album-grid"></section>
+
+  <div id="albumsEmptyState" class="empty-state">
+    <div class="empty-frame">
+      <span>NO ROLLS LOADED</span>
+    </div>
+    <p>Add albums to the <code>ALBUMS</code> list in albums.js to fill the shelf.</p>
+  </div>
+
+  <div class="sprocket-strip" aria-hidden="true"></div>
+
+  <footer class="colophon">
+    <p>Media is loaded from the <code>/media</code> folder next to this page. Edit the list in albums.js to update your albums.</p>
+  </footer>
+</section>
+
+<!-- ===== Single album view ===== -->
+<section id="albumView" hidden>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <button class="back-btn" id="backBtn">‹ All albums</button>
+      <p class="eyebrow"><span id="rollNumber">01</span> — <span id="frameCount">0</span> EXP</p>
+      <h1 id="albumTitle">ALBUM</h1>
+    </div>
+    <div class="masthead-controls">
+      <div class="filter-group" role="group" aria-label="Filter media">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="image">Stills</button>
+        <button class="filter-btn" data-filter="video">Motion</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="sprocket-strip" aria-hidden="true"></div>
+
+  <section id="gallery" class="gallery"></section>
+
+  <div id="emptyState" class="empty-state">
+    <div class="empty-frame">
+      <span>NO FRAMES EXPOSED</span>
+    </div>
+    <p>This album has no items listed yet in albums.js.</p>
+  </div>
+
+  <div class="sprocket-strip" aria-hidden="true"></div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous frame">‹</button>
+  <div class="lightbox-stage" id="lightboxStage"></div>
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next frame">›</button>
+  <div class="lightbox-meta">
+    <span class="lightbox-frame-no" id="lightboxFrameNo">FRAME 001</span>
+    <span class="lightbox-filename" id="lightboxFilename"></span>
+  </div>
+</div>
+
+<script src="albums.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
