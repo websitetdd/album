@@ -178,9 +178,9 @@ const ALBUMS = [
       "Heang Seangleng/fourtynine.jpg",
       "Heang Seangleng/fifty.jpg",
 
-      "Heang Seangleng/one.MP4", 
-      "Heang Seangleng/two.MP4", 
-      "Heang Seangleng/three.MP4",
+      "Heang Seangleng/one.mp4",
+      "Heang Seangleng/two.mp4", 
+      "Heang Seangleng/three.mp4",
     ],
   },
   {
@@ -258,7 +258,7 @@ const ALBUMS = [
       "Lim Sivphang/sixtynine.jpg",
       "Lim Sivphang/seventy.jpg",
       
-      "Lim Sivphang/one.MOV",
+      "Lim Sivphang/one.mov",
     ],
   },
 
